@@ -49,3 +49,47 @@ Element:
 
 	- Content 'hello'
 		No content (no text) such as image will not need closing tag <img src="">
+
+
+CSS
+	Color ways:
+	1. RGB (0-250)
+	2. Hex code (#______)
+	e.g. h1 { 
+			color: rgb(245,188,219)
+			}
+		h1 = selector
+		color: rgb() = declaration
+		color = property
+		rgb etc = value
+		whole thing = rule
+	If there is multiple 'selectors' e.g. h1 and h3 to be the same styling, you can do the following:
+	h1, h3: {color...etc} = just use a comma
+
+	font-size: in pixels px.
+	color
+	background-color
+	font-style
+
+Where do we type CSS?
+It is a style tag..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
