@@ -44,3 +44,5 @@ Order of template:
 		<body>
 		</body>
 	</html>
+
+'Sync' fewd-materials on LHS to get new stuff from teacher
