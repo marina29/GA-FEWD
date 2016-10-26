@@ -11,6 +11,8 @@ How to submit hw:
 Things to do:
 1. Print cheat sheet for <tags>
 2. Do NYC web for fun for Annie's blog
+3. Three statement operating model for work
+4. Pension fund research - valuation (AS)
 
 
 
