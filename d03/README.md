@@ -46,3 +46,15 @@ Order of template:
 	</html>
 
 'Sync' fewd-materials on LHS to get new stuff from teacher
+
+STYLESHEETS
+how to repeat same rule amongst several 
+So change h1s for each file
+e.g.
+Can link multiple html files to the 1 CSS file...allowing to write CSS in one place to one reference
+Make Style.css file
+and insert e.g. h1 { } etc.
+
+Insert comments:
+1. CSS - for comments within that file - /* this will insert comment */
+2. HTML file - Comment ....   <!-- This is such a good file -->
