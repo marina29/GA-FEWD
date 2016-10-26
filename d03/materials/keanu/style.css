@@ -10,7 +10,7 @@ body {
 }
 ul {
 	font-family:georgia;
-	color:grey;
+	color:green;
 }
 
 .italicise {
@@ -19,4 +19,12 @@ ul {
 
 #highlightblue {
 	background-color:rgba(129,216,208,0.5);
+}
+
+
+
+/* TO OVERRIDE UL TAG COLOR ADD A MORE SPECIFIC RULE */
+
+#point-break {
+	color:orange;
 }

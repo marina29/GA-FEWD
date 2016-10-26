@@ -83,3 +83,15 @@ Give an ID
 e.g. Id
 #turkey {color:blue} (applies to ONE element only in a given way)
 <li id="turkey">Javascript</li> <!--i just want to make this <li>blue-->
+
+Link tag is doing all the work** MAKE SURE YOU'VE LINKED STYLE.CSS FILE!
+
+NTS: The more specific rule will override the more general rule.
+
+
+SELECTORS RELATIONAL
+- adjacent sibling + - literally following sibling (next to each other)
+- general sibling ~ - same parent e.g. body but no
+- direct child > any child to a parent 
+- decsendant 
+*Check this
