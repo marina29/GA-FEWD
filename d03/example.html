@@ -4,23 +4,32 @@
   <head>
     <title>Puppies</title>
       <style>
-        h1 {
-          color:#A32A38;
+        .highlight {
+          background-color:yellow;
+        }
+        .baloney {
+          color:orange;
+        }
+        .baloney, .highlight{
+          font-size: 30px;
+        }
+        #turkey{
+          color:blue;
         }
       </style>
   </head>
 
   <body>
-    <h1>Hello - now this is mine!</h1>
+    <h1 class="highlight">Hello - now this is mine!</h1>
 
     <p>This is your first class on HTML weeeee!</p>
 
-    <h4>List of cool things we'll learn</h4>
+    <h4 class="highlight baloney">List of cool things we'll learn</h4>
 
     <ul>
       <li>HTML</li>
       <li>CSS</li>
-      <li>Javascript</li>
+      <li id="turkey">Javascript</li> <!--i just want to make this <li>blue-->
     </ul>
 
     <table>
@@ -40,7 +49,7 @@
 
     <a href="http://google.com" target="_blank">Google</a>
     <p>This is a link to my
-    <a href="https://github.com/marina29/GA-FEWD">github repo </a> for this class.
+    <a href="https://github.com/marina29/GA-FEWD" target="_blank">github repo </a> for this class.
     </p>
     <br>
     <img src="https://static-s.aa-cdn.net/img/ios/596965046/2d26961a2ea2e53f7a9de56f204affc1?v=1">

@@ -54,7 +54,30 @@ e.g.
 Can link multiple html files to the 1 CSS file...allowing to write CSS in one place to one reference
 Make Style.css file
 and insert e.g. h1 { } etc.
+Linking stylesheet
+use the following: <link rel="stylesheet" type="text/css" href="./style.css">
 
-Insert comments:
+INSERT COMMENTS:
 1. CSS - for comments within that file - /* this will insert comment */
 2. HTML file - Comment ....   <!-- This is such a good file -->
+
+CSS SELECTORS:
+1. id, relational, pseudo-class selectors
+2. describe priority rules
+
+CLASS SELECTOR:
+- to define a rule that applies generally
+.highlight{} is for the 'class' of highlights.
+different to the highlight {} which would include all the highlgiht tags
+in style section is where you describe which elements are included in 'baloney'
+Idea of 'class' is a rule that has applications more general than just a tag. Not applicable JUST for headings, maybe i want to highlight other stuff.
+
+Tag -> Attribute -> rule?
+
+PURPOSE OF ID - single specific element (not a tag e.g. not <p> tags but A <p> tag)
+<li style="color:blue;">Javascript</li> <!--i just want to make this <li>blue-->
+**DONT EVER DO THIS THOUGH = bad practice**
+Give an ID
+e.g. Id
+#turkey {color:blue} (applies to ONE element only in a given way)
+<li id="turkey">Javascript</li> <!--i just want to make this <li>blue-->
