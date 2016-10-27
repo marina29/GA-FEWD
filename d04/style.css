@@ -1,0 +1,40 @@
+h1 {
+	color:rgb(129,216,208);
+	font-style: georgia;
+	font-family:italic;
+	border:1px solid black;
+	padding-top:10px;
+	margin-bottom:10px;
+	height: 100px;
+	width:200px;
+}
+
+h4 {
+	color:rgba(100,200,250);
+}
+
+body {
+	color:rgb(100,216,290);
+	font-style:georgia;
+}
+
+h2 {
+  border: 1px solid black;
+}
+
+
+/*class*/
+.highlight-grey {
+	background-color:grey;
+}
+.italic {
+	font-style: italic;
+}
+
+.small-text{
+	font-size:12px;
+}
+/* Specific Rule use hashtag */
+#highlight-blue {
+	background-color:blue;
+}
