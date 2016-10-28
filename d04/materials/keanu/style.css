@@ -24,4 +24,9 @@ div {
 	width: 100px; /* If not defined, then will auto fit the full width*/
 	border:1px dashed black;
 	background-color: #A23A38;
+	margin-bottom:10px;
+}
+
+.highlight-grey{
+	background-color:grey;
 }
