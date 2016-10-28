@@ -20,6 +20,7 @@ LAYOUTS
 	Padding -  is internal within the content - can see it and can colour it in
 	Border - 
 	Margin - keeps everything else outside of element pushed 
+	Can change HEIGHT and WIDTH OF BOX
 	
 	Can do:
 		- top 
@@ -28,3 +29,8 @@ LAYOUTS
 		- right
 		ORDER: padding: top, right, bottom, left
 		ORDER: (if 2): top&bottom, right&left
+
+	Three kinds of HTML elementd
+	1. Block - default takes up 100% of parent
+	2. Inline
+	3. Inline-block

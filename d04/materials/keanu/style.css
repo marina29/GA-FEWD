@@ -1,4 +1,27 @@
 h1 {
   color: #7FDBFF;
+  background-color:rgb(250,200,240);
+  padding:20px 30px 20px 50px;
+  border:4px solid grey;
+  margin-left:20px;
+  margin-bottom:30px;
+  height:150px;
+  width:150px;
+  text-align:center;
 }
 
+img {
+	background-color:rgb(250,200,240);
+	padding:20px 40px;
+	border:10px solid grey;
+	margin-left:20px;
+	margin-bottom:30px;
+}
+
+
+div {
+	height:100px;
+	width: 100px; /* If not defined, then will auto fit the full width*/
+	border:1px dashed black;
+	background-color: #A23A38;
+}
