@@ -39,5 +39,6 @@ LAYOUTS
 	Divs are spaces with no dimensions until you define it
 	Nothing goes next to block element that's why it goes to next line
 
+
 HOMEWORK:
 - laid out same and things next to each other is extra credit - search 'inline-block'
