@@ -13,9 +13,11 @@ AGENDA
 2. Display types
 	- block: do not allow other block elements to be in same line, default take up 100% of container e.g. <p></p>
 	- inline: only left and margin, dimentions determined by content (doesnt require own line), no ability to change height or width, e.g. <a></a><span></span> (doesnt force itself into new line ='inline') <span></span> is used to group things you want to edit together
-	- inline-block
+	- inline-block: (combine other two) height and width cna be determined AND allows ofr multple blocks on same line parent determines 'container' size, each element's width = width + padding + margin + border
 3. Layout lab
 
 
 
 UNIVERSAL SELECTOR in CSS * {font-family: 'coming soon', cursive}
+Can select multiple cursors through using the [command + click] button
+- Elements by default have line-height, so make line-height:0
