@@ -41,5 +41,10 @@ See style.css
 
 Pseudo-class
 • Target specific elements based mainly on relationships 
-• e.g. first child, just first <li></li>
+• E.g. first child, just first <li></li>
 
+CSS Specificity:
+1. Inline styles
+2. IDs
+3. Classes /attributes /pseudo classes
+4. Elements and pseudo-elements
