@@ -8,16 +8,12 @@ h1 {
 	color:#DD0000;
 	font-weight:normal;
 }
-h4 {
+h4,h3 {
 	color:black;
 	font-weight:normal;
 }
 h2 {
 	color:#cccccc;
-	font-weight:normal;
-}
-h3 {
-	color:black;
 	font-weight:normal;
 }
 a{
