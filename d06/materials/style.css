@@ -1,0 +1,46 @@
+h1 {
+	color:purple;
+}
+
+/* h1 is the selector */
+
+.smiley {
+	font-size:20px;
+}
+/* smiley is the selector */
+
+/* any paragraph adjacent to my h1 will be edited */
+h1 + p{
+	font-weight: bold;
+}
+
+
+/* ANY sibling - doewsnt have to be adjacent */
+
+h1 - p {
+	background-color:red;
+}
+
+table > tr {
+	background-color: red;
+}
+/* not a DIRECT child.. so put tr intead of td */
+
+table td {
+	background-color:purple;
+}
+/* any decsendant of table that is td will be applied */
+
+
+ul.sandwich > li:nth-child(2) {
+	background-color:blue;
+}
+
+
+h1:hover{
+	color:white;
+	background-color:blue;
+	text-decoration:underline;
+	cursor:crosshair;
+}
+/* Usually hover is applied to anchor tag <a></a> */
