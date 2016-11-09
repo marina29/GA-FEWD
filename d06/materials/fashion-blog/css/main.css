@@ -1,4 +1,4 @@
-* {
+body {
 	font-family:"lato", sans-serif;
 	color:#444444;
 	line-height:1.5;
@@ -7,14 +7,25 @@
 h1 {
 	color:#DD0000;
 	font-weight:normal;
+	margin:0;
 }
-h4,h3 {
+
+h3 {
 	color:black;
 	font-weight:normal;
+	font-size:22px;
+	margin:0;
 }
-h2 {
+
+h2{
+	font-weight:100;
+	margin:0 0 10px 0;
+}
+
+.date {
 	color:#cccccc;
 	font-weight:normal;
+	margin:10px 0 0 0;
 }
 a{
 	text-decoration:none;
@@ -51,7 +62,9 @@ a:hover {
 	padding:0 5px;
 	border-right:solid 1px #DDDDDD;
 }
-
+.bottomnav:last-child{
+	border-right:none;
+}
 .container {
 	padding:20px;
 }
