@@ -1,4 +1,99 @@
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
+.container {
+	font-family:"source sans pro", sans-serif;
+	font-size:16px;
+	line-height:1.5;
+}
+
+h1 {
+	display:inline-block;
+	height:60px;
+}
+
+nav a {
+	color:white;
+	font:12px;
+	padding-right:5px;
+	text-decoration:none;
+}
+
+nav {
+	padding-top:15px;
+}
+
+.headingfont {
+	font-family: "merriweather", serif;
+}
+
+.header-bg {
+	color:yellow;
+	background-color:black;
+	height:60px;
+	display:inline-block;
+}
+
+.top {
+	height: 60px;
+}
+
+.matchbox {
+	height: 270px;
+}
+
+.img-only {
+	background: url("./startup-matchmaker/img/coworking.jpg");
+}
+
+.article {
+	height:200px;
+}
+
+.centre {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.link {
+	border:1px solid grey;
+	width:80%;
+	text-align:center;
+	font-family:"oswald", sans-serif;
+	background-color:#C6C6C6;
+}
+
+footer {
+	color:white;
+	background-color:black;
+}
+
+
+.tagline{
+	background-color:#C6C6C6;
+	font-size:20px;
+	font-style:italic;
+}
+.crossed-out {
+	color:#808080;
+	text-decoration: line-through;
+	display:inline-block;
+}
+
+.actions {
+	background-color:#C6C6C6
+}
+
+h4 {
+	font-family:"oswald", sans-serif;
+	font-stretch:extra-expanded;
+	font-size:1.5rem;
+}
+
+
+.section2 {
+	background-color:#ededed;
+}
+
+.yellowunderline {
+	border-bottom:3px solid yellow;
+}
+
