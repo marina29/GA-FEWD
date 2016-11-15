@@ -34,7 +34,7 @@ Create a Profile button
 • background-color: yellow;
 
 Notes:
-	1) Set the image as a background CSS style (also look for background-position and backround-size)
+	1) Set the image as a background CSS style (also look for background-position and background-size)
 	2) To round the button's corners, look up the border-radius CSS property
 	3) To create the shadow for the buttons, look up box-shadow
 	4) Use the "rgba" color value to set the see-thru background of the "Meet your Match" element

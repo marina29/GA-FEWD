@@ -1,99 +1,158 @@
+
+/*This contains everything in the body*/
 .container {
-	font-family:"source sans pro", sans-serif;
-	font-size:16px;
-	line-height:1.5;
+	font-family: "source sans pro", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
+/*Note: Put all <p> in a div box so you can make smaller for writing OR make the columns skinnier*/
+
+
+/*'Startup Matchmaker' - Title and merriweather font for titles*/
 h1 {
-	display:inline-block;
-	height:60px;
+	display: inline;
+	vertical-align:middle;
+	padding: 0 0 0 15px;
+	color: yellow;
 }
-
-nav a {
-	color:white;
-	font:12px;
-	padding-right:5px;
-	text-decoration:none;
-}
-
-nav {
-	padding-top:15px;
-}
-
-.headingfont {
+.merriweather {
 	font-family: "merriweather", serif;
 }
 
-.header-bg {
-	color:yellow;
-	background-color:black;
-	height:60px;
-	display:inline-block;
-}
-
-.top {
-	height: 60px;
-}
-
-.matchbox {
-	height: 270px;
-}
-
-.img-only {
-	background: url("./startup-matchmaker/img/coworking.jpg");
-}
-
-.article {
-	height:200px;
-}
-
-.centre {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.link {
-	border:1px solid grey;
-	width:80%;
-	text-align:center;
-	font-family:"oswald", sans-serif;
-	background-color:#C6C6C6;
-}
-
-footer {
-	color:white;
-	background-color:black;
-}
-
-
-.tagline{
-	background-color:#C6C6C6;
-	font-size:20px;
-	font-style:italic;
-}
-.crossed-out {
-	color:#808080;
-	text-decoration: line-through;
-	display:inline-block;
-}
-
-.actions {
-	background-color:#C6C6C6
-}
-
-h4 {
-	font-family:"oswald", sans-serif;
-	font-stretch:extra-expanded;
-	font-size:1.5rem;
-}
-
-
-.section2 {
-	background-color:#ededed;
+/*Navigation and heading bar - black with 70px height and vertically middle*/
+.navbar {
+	background-color: black;
+	vertical-align: middle;
+	height:70px;
 }
 
 .yellowunderline {
-	border-bottom:3px solid yellow;
+	border-bottom: 4px solid yellow;
 }
+
+/*Navigation links - white, display inline-block, and no underline in links*/
+nav a {
+	color: white;
+	font-size:18px;
+	display: inline-block;
+	padding: 0 5px 0 5px;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+/*Second grid column vertically, grey bar with company motto*/
+.secondgrid {
+	background-color: #C6C6C6;
+	font-size: 22px;
+	font-style: italic;
+	height:70px;
+}
+.centre {
+	text-align: center;
+	padding:0;
+}
+.crossed-out {
+	color: #808080;
+	text-decoration: line-through;
+	display: inline-block;
+}
+
+/*MEET YOUR MATCH BOX...*/
+h4 {
+	font-family: "Oswald";
+	font-size: 28px;
+	font-weight: 900;
+}
+/*Details of the match box*/
+.matchbox {
+	margin:20px 0;
+	height: 260px;
+	width:350px;
+	box-shadow: 0 0 4px 0.2px #000000;
+	padding:20px 0px 0px 20px;
+	display:inline-block;
+	background-color: rgba(237,237,237,0.8) ;
+}
+
+.inline {
+	display:inline;
+}
+
+.createprofile {
+	margin:30px 0 0 0;
+	color:black;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:7px;
+	box-shadow: 0 3px 3px 0px grey;
+	width:90%;
+	height:35px;
+	text-align: center;
+	text-decoration:none;
+	padding-top:8px;
+	font-family: "oswald", sans-serif;
+	font-weight:bold;
+	background-color: yellow;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+.link {
+	color:black;
+	border-radius:7px;
+	width: 100%;
+	height:30px;
+	text-align: center;
+	text-decoration:none;
+	padding-top:8px;
+	font-family: "oswald", sans-serif;
+	font-weight:bold;
+	background-color: #C6C6C6;
+	box-shadow: 0 3px 3px 0px grey;
+}
+
+/*BACKGROUND IMAGE MID SECTION*/
+.img-only {
+	background: url("file:///Users/marina/GA-FEWD/d08/materials/startup-matchmaker/img/coworking.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+.action {
+	height: 200px;
+	width:80%;
+	padding-left:25px;
+}
+
+.greybg {
+	background-color:#EDEDED;
+}
+	
+.greyseparator {
+	border-right:1px solid #C6C6C6;
+}
+
+.actionlink {
+	background-color: #C6C6C6;
+}
+
+.footer-bg {
+	color: white;
+	background-color: black;
+	height:70px;
+}
+
+.moveup {
+	display: inline;
+}
+
+
+
+
+
+
+
 
