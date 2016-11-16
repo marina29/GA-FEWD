@@ -68,10 +68,10 @@ h4 {
 	margin: 20px 0;
 	height: 260px;
 	width: 350px;
-	box-shadow: 0 0 4px 0.2px #000000;
+	box-shadow: 0 0 4px 0.2px grey;
 	padding: 30px 0px 0px 30px;
 	display: inline-block;
-	background-color: rgba(237,237,237,0.8) ;
+	background-color: rgba(237,237,237,0.8);
 }
 
 .inline {
@@ -99,6 +99,10 @@ h4 {
 a:link {
 	text-decoration:none;
 	padding-top:17px;
+}
+
+a:hover {
+	color:yellow;
 }
 
 .link {
