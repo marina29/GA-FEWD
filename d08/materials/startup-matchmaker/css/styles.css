@@ -45,7 +45,7 @@ nav a {
 	background-color: #C6C6C6;
 	font-size: 22px;
 	font-style: italic;
-	height:70px;
+	padding-bottom:20px;
 }
 .centre {
 	text-align: center;
@@ -121,7 +121,7 @@ a:hover {
 
 /*BACKGROUND IMAGE MID SECTION*/
 .img-only {
-	background: url("file:///Users/marina/GA-FEWD/d08/materials/startup-matchmaker/img/coworking.jpg");
+	background: url("../img/coworking.jpg");
 	background-size: 100%;
 	background-position: center;
 }
@@ -159,6 +159,17 @@ a:hover {
 }
 
 
+@media (max-width: 767px) {
+  header nav {
+    padding: 0;
+    text-align: center;
+  }
 
+  .greyseparator {
+  	border-right:0;
+  	border-bottom: 1px solid #C6C6C6;
+  }
+
+}
 
 
