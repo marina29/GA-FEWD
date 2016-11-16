@@ -3,7 +3,7 @@
 .container {
 	font-family: "source sans pro", sans-serif;
 	font-size: 16px;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
 
 /*Note: Put all <p> in a div box so you can make smaller for writing OR make the columns skinnier*/
@@ -11,7 +11,7 @@
 
 /*'Startup Matchmaker' - Title and merriweather font for titles*/
 h1 {
-	display: inline;
+	display: inline-block;
 	vertical-align:middle;
 	padding: 0 0 0 15px;
 	color: yellow;
@@ -24,7 +24,6 @@ h1 {
 .navbar {
 	background-color: black;
 	vertical-align: middle;
-	height:70px;
 }
 
 .yellowunderline {
@@ -60,18 +59,18 @@ nav a {
 
 /*MEET YOUR MATCH BOX...*/
 h4 {
-	font-family: "Oswald";
+	font-family: "Oswald", sans-serif;
 	font-size: 28px;
-	font-weight: 900;
+	font-weight: 700;
 }
 /*Details of the match box*/
 .matchbox {
-	margin:20px 0;
+	margin: 20px 0;
 	height: 260px;
-	width:350px;
+	width: 350px;
 	box-shadow: 0 0 4px 0.2px #000000;
-	padding:20px 0px 0px 20px;
-	display:inline-block;
+	padding: 30px 0px 0px 30px;
+	display: inline-block;
 	background-color: rgba(237,237,237,0.8) ;
 }
 
@@ -80,7 +79,7 @@ h4 {
 }
 
 .createprofile {
-	margin:30px 0 0 0;
+	margin:30px 20px 0 0;
 	color:black;
 	display:block;
 	margin-left:auto;
@@ -99,6 +98,7 @@ h4 {
 
 a:link {
 	text-decoration:none;
+	padding-top:17px;
 }
 
 .link {
@@ -150,7 +150,9 @@ a:link {
 }
 
 
-
+.paddingbottom {
+	padding-bottom:20px;
+}
 
 
 
