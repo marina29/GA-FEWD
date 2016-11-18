@@ -40,8 +40,8 @@
   
 
   <script>
-    g.fill(1,2,"color purple");
-    g.fill(2,3,"color red");
+    // g.fill(1,2,"color purple");
+    // g.fill(2,3,"color red");
 
     // var colorFromUser=prompt("What color would you like to use?");
     // g.fill(5,9,"color " + colorFromUser);
@@ -55,37 +55,61 @@
     // g.fill(xAsNumber,yAsNumber,"color " + colorFromUser);
 
 
-    var userResponse= prompt("Do you want to fill in another square?");
+    // var userResponse= prompt("Do you want to fill in another square?");
     
-    if (userResponse==="yes") {
-      g.fill(5,9,"color orange");
-    } else {
-      var secondChance = prompt("Are you sure..DO YOU WANT TO FILL IN A square?");
+    // if (userResponse==="yes") {
+    //   g.fill(5,9,"color orange");
+    // } else {
+    //   var secondChance = prompt("Are you sure..DO YOU WANT TO FILL IN A square?");
       
-      if (secondChance === "yes") {
-        g.fill(5,9,"color orange");
-      } else {
-        alert("Well fine")
-      }
-    }
-    // this is called conditional
+    //   if (secondChance === "yes") {
+    //     g.fill(5,9,"color orange");
+    //   } else {
+    //     alert("Well fine")
+    //   }
+    // }
+    // // this is called conditional
 
-    var x = 0;
+    // var x = 0;
 
+    // while (x < 20) {
+    //   g.fill(x,0,"color orange");
+    //   x = x + 1;
+    // }
+
+    // var num = 0;
+
+    // while (num < 2) {
+    //   alert("HEY!!");
+    //   num = num + 1;
+    // }
+
+    var x = 0
     while (x < 20) {
-      g.fill(x,0,"color orange");
-      x = x + 1;
-    }
-
-    var num = 0;
-
-    while (num < 2) {
-      alert("HEY!!");
-      num = num + 1;
+      g.fill(x, 0, "color black");
+      x = x + 2
     }
     
+
+
+
     
-    
+      var y = 0  
+      while (y < 20) {
+        if (y % 2 === 0) {
+          var x = 0;
+        } else {
+          var x =1;
+        }
+
+        while (x < 20) {
+          g.fill(x,y,"color blue");
+          x = x + 2;
+        }
+      y = y + 1
+      }
+
+
 
   </script>
   
