@@ -42,8 +42,36 @@
   <script>
     g.fill(1,2,"color purple");
     g.fill(2,3,"color red");
-    colorFromUser=prompt("What color would you like to use?");
-    g.fill(5,9,colorFromUser);
+
+    // var colorFromUser=prompt("What color would you like to use?");
+    // g.fill(5,9,"color " + colorFromUser);
+
+    // var xAsString = prompt("What x coordinate do you want?");
+    // var xAsNumber =parseInt(xAsString);
+
+    // var yAsString = prompt("What y coordinate do you want?");
+    // var yAsNumber = parseInt(yAsString);
+
+    // g.fill(xAsNumber,yAsNumber,"color " + colorFromUser);
+
+
+    var userResponse= prompt("Do you want to fill in another square?");
+    
+    if (userResponse==="yes") {
+      g.fill(5,9,"color orange");
+    } else {
+      var secondChance = prompt("Are you sure..DO YOU WANT TO FILL IN A square?");
+      
+      if (secondChance === "yes") {
+        g.fill(5,9,"color orange");
+      } else {
+        alert("Well fine")
+      }
+    }
+    // this is called conditional
+    
+    
+
   </script>
   
 </body>
