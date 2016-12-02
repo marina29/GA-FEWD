@@ -1,0 +1,48 @@
+
+header {
+	color: white;
+	background-color:black;
+	font-family: "Times New Roman", Times, serif;
+	padding-left:10px;
+}
+
+h1 {
+	position: relative;
+}
+
+.inlineblock {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	display: none;
+}
+
+.hamburger {
+	background-color: white;
+	height: 4px;
+	width: 25px;
+	margin-top: 3px;
+}
+
+nav a {
+	color:white;
+	padding-right:8px;
+}
+
+header nav {
+	padding-top:25px;
+	text-align: right;
+}
+
+@media (max-width: 767px) {
+	.inlineblock {
+		display: inherit;
+	}
+}
+
+@media (max-width: 767px) {
+	nav a {
+		display:none;
+	}
+}
