@@ -23,6 +23,7 @@ span {
 }
 
 nav {
+	position: absolute;
 	display: none;
 	height:70px;
 	width:180px;
@@ -54,12 +55,4 @@ nav.open {
 
 .inlineblock {
 	display:inline-block;
-}
-
-.one {
-	position:absolute;
-}
-
-.two {
-	position:absolute;
 }
