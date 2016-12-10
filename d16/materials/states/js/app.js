@@ -12,18 +12,27 @@ var ct = {
   usSenators: ["Richard Blumenthal", "Christopher S. Murphy"]
 }
 
-$("#ny").on("click", function() {
-	$(".capital").text(ny["capital"]);
-	$(".governor").text(ny["governor"]);
+$("button#ny").on("click", function() {
+	console.log("button clicked");
 	$("h1").text(ny["name"]);
-	$("#first-senator").text(ny["usSenators"]);
-	$("#second-senator").text(ny["usSenators"]);
+	$("h1").css("color", "rgb(129,216,208)");
+	
+	$("span.capital").text(ny["capital"]);
+	$("span.governor").text(ny["governor"]);
+	
+	$("li#first-senator").text(ny["usSenators"][0]);
+	$("li#second-senator").text(ny["usSenators"][1]);
 });
 
-$("#ct").on("click", function() {
-	$(".capital").text(ct["capital"]);
-	$(".governor").text(ct["governor"]);
+$("button#ct").on("click", function() {
+	console.log("button clicked");
+	
 	$("h1").text(ct["name"]);
-	$("#first-senator").text(ct["usSenators"]);
-	$("#second-senator").text(ct["usSenators"]);
+	$("h1").css("color", "rgb(129,216,208)");
+	
+	$("span.capital").text(ct["capital"]);
+	$("span.governor").text(ct["governor"]);
+	
+	$("li#first-senator").text(ct["usSenators"][0]);
+	$("li#second-senator").text(ct["usSenators"][1]);
 });
