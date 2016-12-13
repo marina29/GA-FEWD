@@ -17,6 +17,7 @@ h1 {
 
 img.icon {
 	vertical-align: middle;
+	width:150px;
 }
 
 input {
@@ -50,4 +51,8 @@ button:hover {
 
 button:focus {
 	outline: 0;
+}
+
+span {
+	font-size:25px;
 }
