@@ -1,0 +1,73 @@
+.container {
+	margin-left: 20px;
+}
+
+header .grid {
+	position: relative;
+}
+
+header {
+	border-bottom: 1px solid grey;
+	height: 100px;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	margin: 30px 15px 0 0;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 25px;
+	color: rgb(129,216,208);
+	font-family: 'Tangerine', serif;
+	text-shadow: 3px 3px 3px #aaa;
+	font-size:25px;
+}
+
+h1 {
+	font-family: 'Sue Ellen Francisco', serif;
+	font-size: 40px;
+	color: rgb(129,216,208);
+	margin: 15px 0 10px 0;
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+h4 {
+	font-family: 'Tangerine', serif;
+	font-size: 18px;
+	margin:0;
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+section {
+	height: 190px;
+	margin-left: 65px;
+	padding-top:10px;
+	display: block;
+	font-size:12px;
+}
+
+footer {
+	margin-left:35px;
+}
+
+footer div {
+	text-align:right;
+}
+
+.footer {
+	text-align: right;
+	text-decoration: none;
+	color: rgb(129,216,208);
+	font-size: 12px;
+    border-right: 1px solid grey;
+    padding: 0 6px 0 5px;
+}
+
+.footer:last-child {
+    border: 0;
+}
