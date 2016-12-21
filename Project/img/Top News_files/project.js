@@ -16,19 +16,10 @@ $("button").on("click", function() {
 			  	console.log(result["results"][0]["title"]);
 			  	// var i = 0
 				$("p#first").text(result["results"][0]["title"]);
-				$("p#second").text(result["results"][1]["title"]);
-				$("p#third").text(result["results"][2]["title"]);
-				$("p#forth").text(result["results"][3]["title"]);
-				$("p#fifth").text(result["results"][4]["title"]);
-
-
-				console.log(result["results"][0]["byline"]);
-				$("p#author1").text(result["results"][0]["byline"]);
-				$("p#author2").text(result["results"][1]["byline"]);
-				$("p#author3").text(result["results"][2]["byline"]);
-				$("p#author4").text(result["results"][3]["byline"]);
-				$("p#author5").text(result["results"][4]["byline"]);
-
+				$("p#second").text(result["results"][1]["title"])
+				$("p#third").text(result["results"][2]["title"])
+				$("p#forth").text(result["results"][3]["title"])
+				$("p#fifth").text(result["results"][4]["title"])
 				  // var nextArticle = function(number) {
 				  // var name = result["results"][number]["name"];
 				  // console.log(name);
